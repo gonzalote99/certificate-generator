@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Certificate generator</title>
+</head>
+<body>
+  <header>
+   <img src="https://raw.githubusercontent.com/aliashfak178/JavaScript-Cirtyficate-Generator/main/pic.jpg" alt="" >
+     <h3>get certificate</h3>
+     <h1>hrh school</h1>
+  </header>
+
+  <main>
+   <label for="name">type name</label>
+   <input placeholder="enter name" type="text" name="name" id="name" required>
+   <button type="submit" id="Submit">get cetificate</button>
+  </main>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+  <script src="fileSaver.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
